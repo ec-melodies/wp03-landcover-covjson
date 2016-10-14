@@ -1,0 +1,221 @@
+{
+  "type" : "Coverage",
+  "domain" : {
+    "type" : "Domain",
+    "domainType" : "Grid",
+    "axes" : {
+      "x" : {
+        "start" : -248156.354520627,
+        "stop" : 705843.645479373,
+        "num" : 1909
+      },
+      "y" : {
+        "start" : -15934.1440867032,
+        "stop" : 1181065.8559133,
+        "num" : 2395
+      },
+      "t" : {
+        "values" : [ "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015" ]
+      }
+    },
+    "referencing" : [ {
+      "coordinates" : [ "x", "y" ],
+      "system" : {
+        "type": "ProjectedCRS",
+        "id": "http://www.opengis.net/def/crs/EPSG/0/27700"
+      }
+    }, {
+      "coordinates" : [ "t" ],
+      "system" : {
+        "type" : "TemporalRS",
+        "calendar" : "Gregorian"
+      }
+    } ]
+  },
+  "parameters" : {
+    "land_cover" : {
+      "type" : "Parameter",
+      "observedProperty" : {
+        "label" : {
+          "en" : "MELODIES Land Cover"
+        },
+        "categories" : [ {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Broadleaf_Woodland",
+          "label" : {
+            "en" : "Broadleaf Woodland"
+          },
+          "preferredColor" : "#FF0000"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Coniferous_Woodland",
+          "label" : {
+            "en" : "Coniferous Woodland"
+          },
+          "preferredColor" : "#006600"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Arable_and_Horticulture",
+          "label" : {
+            "en" : "Arable and Horticulture"
+          },
+          "preferredColor" : "#732600"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Improved_Grassland",
+          "label" : {
+            "en" : "Improved Grassland"
+          },
+          "preferredColor" : "#00FF00"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Rough_Grassland",
+          "label" : {
+            "en" : "Rough Grassland"
+          },
+          "preferredColor" : "#FAAA00"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Neutral_Grassland",
+          "label" : {
+            "en" : "Neutral Grassland"
+          },
+          "preferredColor" : "#7FE57F"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Calcareous_Grassland",
+          "label" : {
+            "en" : "Calcareous Grassland"
+          },
+          "preferredColor" : "#70A800"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Acid_Grassland",
+          "label" : {
+            "en" : "Acid Grassland"
+          },
+          "preferredColor" : "#998100"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Fen_Marsh_and_Swamp",
+          "label" : {
+            "en" : "Fen Marsh and Swamp"
+          },
+          "preferredColor" : "#FFFF00"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Heather",
+          "label" : {
+            "en" : "Heather"
+          },
+          "preferredColor" : "#801A80"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Heather_Grassland",
+          "label" : {
+            "en" : "Heather Grassland"
+          },
+          "preferredColor" : "#E68CA6"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Bog",
+          "label" : {
+            "en" : "Bog"
+          },
+          "preferredColor" : "#008073"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Montane_Habitats",
+          "label" : {
+            "en" : "Montane Habitats"
+          },
+          "preferredColor" : "#00FFFF"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Inland_Rock",
+          "label" : {
+            "en" : "Inland Rock"
+          },
+          "preferredColor" : "#D2D2FF"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Saltwater",
+          "label" : {
+            "en" : "Saltwater"
+          },
+          "preferredColor" : "#000080"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Freshwater",
+          "label" : {
+            "en" : "Freshwater"
+          },
+          "preferredColor" : "#0000FF"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Supra-littoral_Rock",
+          "label" : {
+            "en" : "Supra-littoral Rock"
+          },
+          "preferredColor" : "#CCB300"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Supra-littoral_Sediment",
+          "label" : {
+            "en" : "Supra-littoral Sediment"
+          },
+          "preferredColor" : "#CCB300"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Littoral_Rock",
+          "label" : {
+            "en" : "Littoral Rock"
+          },
+          "preferredColor" : "#FFFF80"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Littoral_Sediment",
+          "label" : {
+            "en" : "Littoral Sediment"
+          },
+          "preferredColor" : "#FFFF80"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Saltmarsh",
+          "label" : {
+            "en" : "Saltmarsh"
+          },
+          "preferredColor" : "#8080FF"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Urban",
+          "label" : {
+            "en" : "Urban"
+          },
+          "preferredColor" : "#000000"
+        }, {
+          "id" : "http://melodiesproject.eu/datasets/WP3/land-cover/def#Suburban",
+          "label" : {
+            "en" : "Suburban"
+          },
+          "preferredColor" : "#808080"
+        } ]
+      },
+      "categoryEncoding" : {
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Calcareous_Grassland" : 7,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Acid_Grassland" : 8,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Urban" : 22,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Inland_Rock" : 14,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Saltwater" : 15,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Rough_Grassland" : 5,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Heather" : 10,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Littoral_Rock" : 19,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Improved_Grassland" : 4,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Saltmarsh" : 21,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Coniferous_Woodland" : 2,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Broadleaf_Woodland" : 1,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Suburban" : 23,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Montane_Habitats" : 13,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Fen_Marsh_and_Swamp" : 9,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Arable_and_Horticulture" : 3,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Bog" : 12,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Heather_Grassland" : 11,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Littoral_Sediment" : 20,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Supra-littoral_Rock" : 17,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Supra-littoral_Sediment" : 18,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Freshwater" : 16,
+        "http://melodiesproject.eu/datasets/WP3/land-cover/def#Neutral_Grassland" : 6
+      }
+    }
+  },
+  "ranges" : {
+    "land_cover" : {
+      "type" : "TiledNdArray",
+      "dataType": "integer",
+      "axisNames": ["t", "y", "x"],
+      "shape": [13, 2395, 1909],
+      "tileSets": [{
+        "tileShape": [1, null, null],
+        "urlTemplate": "https://ec-melodies.github.io/wp03-landcover-covjson/BNG/year/{t}.json"
+      }]
+    }
+  }
+}

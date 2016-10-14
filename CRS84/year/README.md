@@ -1,0 +1,1 @@
+Note that the official .covjson extension is not used here as GitHub Pages doesn't apply gzip compression then.
